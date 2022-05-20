@@ -1,0 +1,118 @@
+table{
+	color: darkslateblue;
+	margin-left: 25%;
+	margin-top: 3%;
+	float: left;
+}
+
+img{
+	color: darkslateblue;
+	margin-left: 10%;
+	margin-top: 0%;
+	float:left;
+}
+
+body{
+	background-color: white;
+	color: darkslateblue;
+}
+
+.read{
+	color: darkslateblue;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 15%;
+}
+
+h1{
+	color: mediumpurple;
+	font-style: italic;
+}
+
+.fun{
+	color: mediumpurple;
+	margin-left: 30%;
+	margin-right: 33%;
+	font-style: italic;
+
+}
+
+.rad{
+	color: darkslateblue;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 15%;
+}
+
+.zed{
+	color: mediumpurple;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.zede{
+	color: darkslateblue;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.ice{
+	color: cornflowerblue;
+	text-align: left;
+	margin-left: 5%;
+	margin-right: 67%;
+	font-style: italic;
+}
+
+.sea{
+	color: cornflowerblue;
+	text-align: left;
+	margin-left: 5%;
+	font-style: italic;
+}
+
+.seasea{
+	color: cornflowerblue;
+	text-align: left;
+	margin-left: 25%;
+	font-style: italic;
+}
+
+.math{
+	color: cornflowerblue;
+	text-align: center;
+	font-style: italic;
+	margin-top: 0%;
+}
+
+.each{
+	float: right;
+	margin-top: 0%;
+	margin-right: 15%;
+	margin-bottom: 5%;
+}
+
+.eacho{
+	float: left;
+	margin-top: 0%;
+	margin-left: 2%;
+	margin-bottom: 5%;
+}
+
+.corky{
+	color: white;
+}
+
+.radar{
+	color: darkslateblue;
+	text-align: left;
+	margin-left: 25%;
+	margin-right: 15%;
+}
+
+.fire{
+	color: palevioletred;
+	text-align: left;
+	margin-left: 25%;
+	font-style: italic;
+}
