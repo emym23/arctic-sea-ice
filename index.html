@@ -12,29 +12,32 @@
 
 	<h4 class="cork"> __________________________________________________________________________________________________________________________________________________________________________________ </h4>
 
-	<h4 class = "sea">What is Thermodynamics and Why is it Useful Here? [EDIT]</h4>
+	<h4 class = "sea">Introduction</h4>
 
 	<h1 class = "each">
 <img src="https://www.linkpicture.com/q/Untitled_Artwork-12.png">
 </h1>
 
-	<p class = "rad">Thermodynamics is the process that affects the freezing  and the melting of sea ice. For example, when the temperature of the ocean reaches the freezing point for salt water (which would be -1.8 degrees for Celsius and 28.8 degrees for Fahrenheit), the ice begins to grow and when the temperature rises above the freezing point, the ice begins to melt. The amount and the rates for the growth and melting of the ice depend on how the heat is exchanged within the sea ice itself and between the top and bottom of the ice. Since we're tracking the growth and melting of sea ice, we are essectially tracking the thermodynaics of the sea ice.</p>
-	
+	<p class = "rad">First of all, in order to understand the basis of our project we have to talk about Thermodynaics. Thermodynamics is the process that affects the freezing  and the melting of sea ice. For example, when the temperature of the ocean reaches the freezing point for salt water (which would be -1.8 degrees for Celsius and 28.8 degrees for Fahrenheit), the ice begins to grow and when the temperature rises above the freezing point, the ice begins to melt. The amount and the rates for the growth and melting of the ice depend on how the heat is exchanged within the sea ice itself and between the top and bottom of the ice. Since we're tracking the growth and melting of sea ice, we are essectially tracking the thermodynaics of the sea ice.</p>
 
-	<h4 class = "sea">Introduction</h4>
+		<p class = "rad">Taling about Albedo</p>
 
-		<p class = "rad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis, lectus at aliquam aliquet, sem enim facilisis augue, et dapibus nunc turpis vel diam. Vivamus felis lacus, lobortis consequat suscipit at, dictum vitae neque. Duis tempor ipsum non blandit ultricies. Integer bibendum nisl orci, ut semper risus malesuada id. Curabitur lacinia malesuada velit, in venenatis quam sodales ullamcorper. Nullam at finibus metus. Duis at nisl eu est dictum pharetra vitae sed tortor. Curabitur lacinia malesuada velit, in venenatis quam sodales ullamcorper. Nullam at finibus metus. Duis at nisl eu est dictum pharetra vitae sed tortor. Duis at nisl eu est dictum pharetra vitae sed tortor. Curabitur lacinia malesuada velit, in venenatis quam sodales ullamcorper. Nullam at finibus metus. Duis at nisl eu est dictum pharetra vitae sed tortor.</p>
+		<p class = "rad">Our idea for the mathematical side of the project was to use code to create an equation that could analyze the data set, and to graph it along with coding our own website so that we could create everything by ourselves. Coding the data also included the added benefit of being able to use the graphs that we were also able to code in order to help show what the data looked like and meant.</p>
 
-	<h4 class = "sea">Procedure Used</h4>
 
-		<p class = "rad">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis, lectus at aliquam aliquet, sem enim facilisis augue, et dapibus nunc turpis vel diam. Vivamus felis lacus, lobortis consequat suscipit at, dictum vitae neque. Duis tempor ipsum non blandit ultricies. Integer bibendum nisl orci, ut semper risus malesuada id. Curabitur lacinia malesuada velit, in venenatis quam sodales ullamcorper. Nullam at finibus metus. Duis at nisl eu est dictum pharetra vitae sed tortor. Curabitur lacinia malesuada velit, in venenatis quam sodales ullamcorper. Nullam at finibus metus. Duis at nisl eu est dictum pharetra vitae sed tortor. Duis at nisl eu est dictum pharetra vitae sed tortor. Curabitur lacinia malesuada velit, in venenatis quam sodales ullamcorper. Nullam at finibus metus. Duis at nisl eu est dictum pharetra vitae sed tortor.</p>
 
 <h4 class="corky"> __________________________________________________________________________________________________________________________________________________________________________________ </h4>
 
 
 </body>
+	<h4 class = "sea"> Below is A Snippet From Different Steps in the Process to Find the Models</h4>
+<img src="https://www.linkpicture.com/q/Untitled_Artwork-27_2.png">
 
+<h4 class="corky"> __________________________________________________________________________________________________________________________________________________________________________________ </h4>
 
+<h4 class = "sea">Procedure Used</h4>
+
+		<p class = "rad">To find each of the models we used curve fitting on python. After plotting each of the data points, we fitted the function to multiple polynomial models with different degrees. Then we picked the model with the highest R2 value. When finding the maximums and minimums of the sea ice extent we set the derivatives equal to zero and solved.  Then for finding the month with the fastest melting rate we used the same process, except instead of using the first derivative, we used the second derivative.  </p>
 
 <h4 class = "fun">Extent In Million Square km Over The Months of 1980, 2012, And 2019</h4>
 
@@ -130,16 +133,77 @@
 
 <h4 class="corky"> __________________________________________________________________________________________________________________________________________________________________________________ </h4>
 
-<p class = "fire"> Add Additional graphs and the equations.</p>
+
+	<h4 class = "sea">All of the models, where x is the month and y is the extent in million sq km:
+</h4>
+<p class = "are"> 
+Equations
+<p class = "que"> 
+1980 Model: y = -0.0002627x6 + 0.008743x5 - 0.1074x4 + 0.654x3 - 2.477x2 + 5.319x + 11.46
+<p class = "que"> 
+2012 Model: y = -0.0004622x6 + 0.01508x5 - 0.1762x4 + 0.9401x3 - 2.785x2 + 4.96 x + 10.75
+<p class = "que"> 
+2019 Model: y = -0.000559 x6 + 0.01978 x5 - 0.2624 x4 + 1.683x3 - 5.797x2 + 9.988 x + 7.901
+<p class = "are"> 
+First Derivative
+<p class = "que"> 
+1980 1st Derivative: y = -0.0015762x5 + 0.043715x4 - 0.4296x3 + 1.962x2 - 4.954x + 5.319
+<p class = "que"> 
+2012 1st Derivative: y = -0.0027732x5 + 0.0754x4 - 0.7048x3 + 2.8203x2 - 5.57x + 4.96
+<p class = "que"> 
+2019 1st Derivative: y = -0.003354x5 + 0.0989x4 - 1.0496x3 + 5.049x2 - 11.594x + 9.988
+<p class = "are"> 
+Second Derivative
+<p class = "que"> 
+1980 2nd Derivative: y = -0.007881x4 + 0.17486x3 - 1.2888x2 + 3.924x - 4.954
+<p class = "que"> 
+2012 2nd Derivative: y = -0.013866x4 + 0.3016x3 - 2.1144x2 + 5.6406x - 5.57
+<p class = "que"> 
+2019 2nd Derivative: y = -0.01677x4 + 0.3956x3 - 3.1488x2 + 10.098x - 11.594
+</p>
 
 
-	<h1 class = "eacho">
+<h4 class = "seaice"> Below is Another Snippet From Different Steps in the Process to Find the Models</h4>
+
+<h1 class = "eachoth">
+<img src="https://www.linkpicture.com/q/Untitled_Artwork-27-copy-2.png">
+</h1>
+
+
+
+<h1 class = "eacho">
 <img src="https://www.linkpicture.com/q/Layer_15-copy-2.png">
 </h1>
 
 <h4 class = "seasea">Discussion and Analysis</h4>
-	<p class = "read"> 2. Answer for this question --> Use your models to find the maximum and minimum sea ice extent. Summarize your results in a few sentences for each model and compare any similarities and/or difference between the two years (max, min, month of max/min, time between max/min, etc.)</p>
-	<p class = "read">3. Answer for this question --> Use your models to find the month of fastest melting of sea ice. Summarize your results in a few sentences for each model, including how fast the ice was melting at these points, and compare any similarities and difference between the two years. You summary should address the question: Is the speed of ice melting meaningfully different between any of the three years (Hint: Units are important here.)?</p>
+	<p class = "read"> 2.Use your models to find the maximum and minimum sea ice extent. Summarize your results in a few sentences for each model and compare any similarities and/or difference between the two years (max, min, month of max/min, time between max/min, etc.)</p>
+
+<p class = "reader">
+Max & Mins: 
+<p class = "reader">
+In 1980 the sea ice extent reached its maximum approximately halfway between February and March. This makes it approximately 2.549 months into the year, and at this time the sea ice extent was around 16.09028 million square kilometers. 1980 then has a minimum at around the end of the eight month, when x ≅ 8.873 months the sea ice extent was around 7.4507 million square kilometers. 
+<p class = "reader">
+In 2012 the sea ice extent reached its maximum of around 15.004 million square kilometers at the beginning of the third month, when x ≅ 3.055 months. The minimum then occurred at 8.849 months, where the sea ice extent was approximately 3.885 million square kilometers. 
+<p class = "reader">
+In 2019 the maximum was at around 2.072 months, where the sea ice extent reached 14.5544 million square kilometers. Then the minimum occurred during the end of the eight month, when x ≅ 8.889 months and the sea ice extent was about 4.4345 million square kilometers. 
+<p class = "reader">
+The maximums and minimums generally happen at around the same time each year. The sea ice extent reaches its maximum sometime around February and March, and the minimum is usually during the month of August.
+
+	<p class = "read">3.Use your models to find the month of fastest melting of sea ice. Summarize your results in a few sentences for each model, including how fast the ice was melting at these points, and compare any similarities and difference between the two years. You summary should address the question: Is the speed of ice melting meaningfully different between any of the three years (Hint: Units are important here.)?</p>
+<p class = "reader">
+Months of Fastest Melting of Sea Ice:
+<p class = "reader">
+Is the speed of ice melting meaningfully
+different between any of the three years (Hint: Units are important here.)?
+<p class = "reader">
+In 1980 the month of fastest melting of sea ice was around the beginning/middle of the 6th month (x=6.4203), where the ice was melting at a rate of 2.223[units]. 
+<p class = "reader">
+In 2012, the middle of the 6th month (x=6.6388) had the fastest rate of melting ice, at a rate of 3.238[units].
+<p class = "reader">
+In 2019 the month with the fastest melting rate was towards the end of the 6th month (x=6.7956), with a rate of 2.716[units]. 
+<p class = "reader">
+The month with the fastest melting of sea ice over the three years that are recorded ends up being the 6th month (aka June). In each of these years the extent of the sea ice decreases about one to two [units] per month but in the 6th month of each year the extent of the sea ice ends up decreasing three [units]. This shows that during this month the sea ice is melting faster over the course of the month since over the same amount of time the ice is melting more and therefore faster. The contrast between the 3 years is that in 2012 this heightened speed of melting ice extends into the 7th month as well which sees the same drop of 3 [units] of sea ice. The fact that this takes place during June, which is when tempatures are rising and summer is starting is clearly connected and not at all suprising. What is surprising is the difference in the speed at which the ice melts at this point in the year is pretty consistent between all of the years that we used which is not what I would've predicted. The only difference seems to be how much ice is actually there rather than the rate at which it is melting, with the ice being at about 10 [units] for both 2012 and 2019 while it is approximately 12 [units] for 1980.   
+
 	<p class = "read">4. Answer for this question --> Explain how the analysis here along with global warming provides an example of this positive feedback look.</p>
 
 <h4 class = "seasea">Conclusion and Future Ideas</h4>
@@ -159,5 +223,25 @@
 
 
 	<h4 class="cork"> __________________________________________________________________________________________________________________________________________________________________________________ </h4>
+
+
+<h4 class = "extra">Bibliography </h4>
+
+<p class = "radari">
+
+“Ice-Albedo Feedback: How Melting Ice Causes More Ice to Melt.” Ice-Albedo Feedback: How Melting Ice Causes More Ice to Melt - Windows to the Universe. Accessed June 5, 2022. https://www.windows2universe.org/?page=%2Fearth%2Fpolar%2Fice_albedo_feedback.html.</p>
+
+<p class = "radari"> 
+“National Snow and Ice Data Center.” Thermodynamics: Albedo | National Snow and Ice Data Center. Accessed June 5, 2022. https://nsidc.org/cryosphere/seaice/processes/albedo.html.</p> 
+
+<p class = "radari">
+“National Snow and Ice Data Center.” Thermodynamics: Growth | National Snow and Ice Data Center. Accessed June 5, 2022. https://nsidc.org/cryosphere/seaice/processes/thermodynamic_growth.html. </p>
+
+<p class = "radari">
+Scott, Rebecca Lindsey AND Michon. “Climate Change: Arctic Sea Ice Summer Minimum.” Climate Change: Arctic sea ice summer minimum | NOAA Climate.gov. Accessed June 5, 2022. https://www.climate.gov/news-features/understanding-climate/climate-change-arctic-sea-ice-summer-minimum. </p>
+
+<h4 class="cork"> __________________________________________________________________________________________________________________________________________________________________________________ </h4>
+
+
 
 </html>
